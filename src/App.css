@@ -1,0 +1,12 @@
+.home {
+  background-image: url("https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2UlMjBhcmUlMjBidWlsZGluZyUyMHNvbWV0aGluZyUyMGNvb2x8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
