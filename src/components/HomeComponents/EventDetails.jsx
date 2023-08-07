@@ -31,13 +31,53 @@ const EventDetails = () => {
           <div className="flex flex-row  bg-white w-[80%] text-xl font-semibold mx-auto gap-2 rounded-xl text-[#BF8134] p-4 justify-center items-center">
             <p>Purchase a Ticket</p>
           </div>
-              </div>
-              
-              <div className="flex flex-col">
-                  
+        </div>
 
-                  
-              </div>
+        <div className="flex w-[380px]  gap-4 flex-col">
+          <div className="flex gap-2 text-white">
+            <img
+              src="/time.png"
+              alt=""
+              className="object-contain w-[54px] h-[54px]"
+            />
+            <div className="gap-2  text-2xl flex flex-col">
+              <p>6pm - 10pm</p>
+              <p className="text-xs">Time</p>
+            </div>
+          </div>
+
+          <div className="flex gap-2 text-white">
+            <img
+              src="/time.png"
+              alt=""
+              className="object-contain w-[54px] h-[54px]"
+            />
+            <div className="gap-2  text-2xl flex flex-col">
+              <p>6pm - 10pm</p>
+              <p className="text-xs">Time</p>
+            </div>
+          </div>
+          <div className="flex gap-2 text-white">
+            <img
+              src="/time.png"
+              alt=""
+              className="object-contain w-[54px] h-[54px]"
+            />
+            <div className="gap-2  text-2xl flex flex-col">
+              <p>6pm - 10pm</p>
+              <p className="text-xs">Time</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]">
+            <img
+              src="/download.png"
+              alt=""
+              className="object-contain w-[30px] h-[30px]"
+            />
+            <p>Download Poster</p>
+          </div>
+        </div>
       </div>
     </div>
   );
