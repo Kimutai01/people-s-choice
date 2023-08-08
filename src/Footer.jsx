@@ -2,16 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black px-4 py-8 flex flex-col w-[100%]">
+    <div className="bg-black px-4 py-8 flex flex-col gap-4 w-[100%]">
       <div className="flex flex-row justify-between items-center ">
-        <div className="w-[70%] text-white  font-bold ">
+        <div className="w-[70%] hidden md:block text-white  font-bold ">
           <p className="bg-white h-[2px] w-[100%]"></p>
         </div>
         <p className="text-white  text-4xl">CONNECT WITH US</p>
       </div>
 
-      <div className="w-[100%] flex justify-between  items-start">
-        <div className="flex flex-col text-white gap-4">
+      <div className="w-[100%] flex md:flex-row flex-col justify-between  gap-4 items-center md:items-start">
+        <div className="flex flex-col justify-center items-center text-white gap-4">
           <div className="flex gap-2 items-center">
             <img
               src="/time.png"

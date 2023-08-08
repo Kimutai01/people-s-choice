@@ -47,8 +47,8 @@ const SendMessage = () => {
               />
             </div>
             <div className="w-[100%] flex justify-end">
-                          <button className=" w-[226px] h-[57px] text-2xl uppercase bg-white rounded-3xl text-[#BF8134]">
-                              Send Message
+              <button className=" w-[226px] h-[57px] text-2xl uppercase bg-white rounded-3xl text-[#BF8134]">
+                Send Message
               </button>
             </div>
           </div>
