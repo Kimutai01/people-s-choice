@@ -46,9 +46,9 @@ const Vendorship = () => {
   ];
   return (
     <div className="border-b-[#BF8134]  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
-      <div className="flex flex-col w-[100%] gap-8 bg-black p-8">
-        <div className="flex justify-center gap-12 items-center">
-          <div className="w-[40%] bg-white p-8 h-[424px] rounded-t-3xl">
+      <div className="flex flex-col w-[100%] gap-8 bg-black  p-4 md:p-8">
+        <div className="flex md:flex-row flex-col-reverse justify-center gap-12 items-center">
+          <div className="md:w-[40%] w-[100%] bg-white p-8 h-[424px] rounded-t-3xl">
             <div className="flex ">
               <div className="w-[50%] text-2xl uppercase  text-[#BF8134] flex flex-col gap-1">
                 <p className="border-b-2 border-black  ">Category</p>
@@ -70,7 +70,7 @@ const Vendorship = () => {
               </div>
             </div>
           </div>
-          <div className="w-[40%]  rounded-t-3xl">
+          <div className="md:w-[40%] w-[100%]  rounded-t-3xl">
             <div
               className="bg-cover bg-no-repeat bg-center h-[424px] w-[100%] rounded-t-3xl"
               style={{ backgroundImage: `url(${homebg})` }}
