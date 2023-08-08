@@ -6,21 +6,21 @@ const EventDetails = () => {
       <div className="flex items-center md:flex-row flex-col gap-2 md:justify-around justify-center bg-black p-8">
         <div className="md:w-[30%] w-[100%] bg-gradient-to-b from-white rounded-2xl flex flex-col justify-between from-30% to-black/50 h-[350px]">
           <div className="flex gap-2 p-4 flex-col">
-            <p>Save the Date</p>
+            <p className="uppercase text-xl font-semibold">Save the Date</p>
             <div className="gap-2 flex ">
               <div className="flex flex-col justify-center items-center">
-                <p className="text-3xl">12</p>
+                <p className="text-7xl font-bold">12</p>
                 <p>D D</p>
               </div>
-              <p className="w-[1px] h-[50px] bg-black"></p>
+              <p className="w-[1px] h-[100px] bg-black"></p>
               <div className="flex flex-col justify-center items-center">
-                <p className="text-3xl">12</p>
-                <p>D D</p>
+                <p className="text-7xl  font-bold">12</p>
+                <p>MM</p>
               </div>
-              <p className="w-[1px] h-[50px] bg-black"></p>
+              <p className="w-[1px] h-[100px] bg-black"></p>
               <div className="flex flex-col justify-center items-center">
-                <p className="text-3xl">12</p>
-                <p>D D</p>
+                <p className="text-7xl  font-bold">12</p>
+                <p>YYYY</p>
               </div>
             </div>
           </div>
