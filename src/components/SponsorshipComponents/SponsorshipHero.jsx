@@ -2,8 +2,8 @@ import React from "react";
 
 const SponsorshipHero = () => {
   return (
-    <div className="flex justify-between items-start bg-black py-12 px-4 ">
-      <div className="w-[50%] h-[563px]">
+    <div className="flex justify-between md:flex-row flex-col items-start bg-black py-12 px-4 ">
+      <div className="md:w-[50%] w-[100%] h-[563px]">
         <img
           src="/aboutpic.png"
           alt=""
@@ -11,7 +11,7 @@ const SponsorshipHero = () => {
         />
       </div>
 
-      <div className="w-[40%] pt-20 flex flex-col gap-4 text-end px-4 text-[#FFFFFF]">
+      <div className="md:w-[40%] w-[100%] md:pt-20 pt-8 flex flex-col gap-4 text-end px-4 text-[#FFFFFF]">
         <p>
           Our work with our sponsors is at the forefront of honoring
           extraordinary talents, exceptional career men, thriving businesses,
