@@ -8,7 +8,7 @@ const FaqDropdown = () => {
     setActiveParagraphIndex(activeParagraphIndex === index ? null : index);
   };
   return (
-    <div className="bg-[#000] border-t-[1px] pb-16 border-gray-500 mt-10">
+    <div className="bg-[#000] border-t-[1px] pb-16 border-[#fff] mt-10">
       {" "}
       <div className="flex flex-col mx-auto md:w-[90%] p-5 md:p-0 pt-10 ">
         <div className="mt-10 ">
@@ -16,7 +16,7 @@ const FaqDropdown = () => {
             className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold items-center flex justify-between text-[#fff]`}
             onClick={() => toggleParagraphVisibility(0)}
           >
-            <div className="flex items-center">
+            <div className="flex items-center text-[#fff]">
               <img src="/1.png" alt="" className="mr-5" />
               How do I participate?
             </div>
@@ -48,7 +48,7 @@ const FaqDropdown = () => {
               className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
               onClick={() => toggleParagraphVisibility(1)}
             >
-              <div className="flex items-center">
+              <div className="flex items-center text-[#fff]">
                 <img src="/2.png" alt="" className="mr-5" />
                 Can I register in multiple categories?
               </div>
@@ -80,7 +80,7 @@ const FaqDropdown = () => {
               className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
               onClick={() => toggleParagraphVisibility(2)}
             >
-              <div className="flex items-center">
+              <div className="flex items-center text-[#fff]">
                 <img src="/3.png" alt="" className="mr-5" />
                 Do you offer warranty
               </div>
@@ -110,7 +110,7 @@ const FaqDropdown = () => {
               className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
               onClick={() => toggleParagraphVisibility(3)}
             >
-              <div className="flex items-center">
+              <div className="flex items-center text-[#fff]">
                 <img src="/4.png" alt="" className="mr-5" />
                 Do you have complete auto repair services
               </div>
@@ -141,7 +141,7 @@ const FaqDropdown = () => {
               className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
               onClick={() => toggleParagraphVisibility(4)}
             >
-              <div className="flex items-center">
+              <div className="flex items-center text-[#fff]">
                 <img src="/5.png" alt="" className="mr-5" />
                 Can you do a full technical assessment of my car
               </div>
