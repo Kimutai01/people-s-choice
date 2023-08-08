@@ -21,13 +21,20 @@ const NomineeHighlights = () => {
       <div className="flex items-center justify-around bg-black p-8">
         <div className="w-[40%] flex flex-col justify-center items-center">
           <div className="flex justify-center text-white items-center gap-2">
-            <div className="bg-[#BF8134]  w-[57px] rounded-md h-[45px] -m-12 flex justify-center items-center z-10 text-white">
-              Next
+            <div
+              className="bg-[#BF8134] cursor-pointer  w-[57px] rounded-md h-[45px] -m-16 flex justify-center items-center z-10 text-white"
+              onClick={swipeback}
+            >
+              <img
+                src="/back.png"
+                alt=""
+                className="w-[15px] h-[22px] object-contain"
+              />
             </div>
 
             <Swiper
               slidesPerView={1}
-              className="h-[380px] w-[503px] flex justify-center items-center   swiper-container"
+              className=" w-[503px] flex justify-center items-center   swiper-container"
               loop={true}
               autoplay={{
                 delay: 5000,
@@ -36,26 +43,65 @@ const NomineeHighlights = () => {
               modules={[Autoplay, Navigation, Pagination, Scrollbar]}
             >
               <SwiperSlide>
-                <div className="flex w-[100%] h-[380px] flex-col">
+                <div className="flex w-[100%]  flex-col">
                   <img
                     src="/slider1.png"
                     alt=""
-                    className="object-contain w-[100%] h-[380px]"
+                    className="object-contain h-[340px] w-[100%] "
                   />
+                  <div className="w-[100%] px-8 flex justify-between items-center text-white">
+                    <div className="flex  flex-col gap-2">
+                      <p className="text-2xl uppercase">Mr SIR XYZ</p>
+                      <p>master of ceremony</p>
+                    </div>
+
+                    <div className="gap-4 flex justify-center items-center">
+                      <div>
+                        <p className="h-[50px] w-[2px] bg-white " />
+                      </div>
+                      <div className="flex  flex-col uppercase gap-2">
+                        <p>category</p>
+                        <p>of the year</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="flex w-[100%] h-[380px] flex-col">
+                <div className="flex w-[100%]  flex-col">
                   <img
                     src="/slider1.png"
                     alt=""
-                    className="object-contain w-[100%] h-[380px]"
+                    className="object-contain h-[340px] w-[100%] "
                   />
+                  <div className="w-[100%] px-8 flex justify-between items-center text-white">
+                    <div className="flex  flex-col gap-2">
+                      <p className="text-2xl uppercase">Mr SIR XYZ</p>
+                      <p>master of ceremony</p>
+                    </div>
+
+                    <div className="gap-4 flex justify-center items-center">
+                      <div>
+                        <p className="h-[50px] w-[2px] bg-white " />
+                      </div>
+                      <div className="flex  flex-col uppercase gap-2">
+                        <p>category</p>
+                        <p>of the year</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </SwiperSlide>
             </Swiper>
-            <div className="bg-[#BF8134]  w-[57px] rounded-md h-[45px] -m-12 flex justify-center items-center z-10 text-white">
-              Next
+            <div
+              className="bg-[#BF8134]  w-[57px] rounded-md  cursor-pointer h-[45px] -m-12 flex justify-center items-center z-10 text-white"
+              onClick={swipe}
+            >
+              <img
+                src="/next.png"
+                alt=""
+                className="w-[15px] h-[22px] object-contain"
+              />
             </div>
           </div>
         </div>
