@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Footer from "./Footer";
 import Sponsorship from "./pages/Sponsorship";
 import Gallery from "./pages/Gallery";
-
+import Faqs from "./pages/Faqs";
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/sponsorship" element={<Sponsorship />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/faqs" element={<Faqs />} />
       </Routes>
       <Footer />
     </Router>
