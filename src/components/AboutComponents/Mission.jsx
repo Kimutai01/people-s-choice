@@ -22,13 +22,24 @@ const Mission = () => {
       >
         <SwiperSlide>
           <div className="flex w-[100%] rounded-t-3xl h-[100%] gap-2  flex-col">
-            <div
-              className="bg-cover bg-no-repeat bg-center h-[397px] flex justify-center items-end  w-[100%] rounded-t-3xl"
-              style={{ backgroundImage: `url(/slider1.png)` }}
-            >
-              <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">
-                Mission
-              </p>
+            <div className="relative rounded-t-3xl">
+              <div
+                className="absolute inset-0 rounded-t-3xl"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #BF8134 0%, rgba(255, 255, 255, 0) 100%)",
+                }}
+              ></div>
+              <img
+                className="object-cover w-full h-full rounded-t-3xl"
+                src="/faq.png"
+                alt="Your Image"
+              />
+              <div className="absolute bottom-0 left-0 w-full text-center p-4">
+                <p className="text-white font-extrabold uppercase text-5xl md:text-8xl">
+                  Mission
+                </p>
+              </div>
             </div>
             <p className="text-white">
               At People’s Choice Awards, our mission is to shine a spotlight on

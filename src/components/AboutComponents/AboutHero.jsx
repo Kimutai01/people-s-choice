@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutHero = () => {
   return (
-    <div className="flex  md:flex-row flex-col justify-between items-start bg-black py-12 px-4 ">
+    <div className="flex font-josefin md:flex-row flex-col justify-between items-start bg-black py-12 px-4 ">
       <div className="md:w-[50%] h-[563px]">
         <img
           src="/aboutpic.png"

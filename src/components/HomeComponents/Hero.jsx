@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="bg-black p-4">
       <div
         style={{ backgroundImage: `url(${homebg})` }}
-        className="h-[100vh] bg-cover bg-no-repeat bg-center "
+        className="h-[100vh] bg-cover bg-no-repeat bg-center font-josefin "
       >
         <div className="flex flex-col items-center justify-end pb-20 h-screen bg-black/20">
           <div className="bg-black/50 flex flex-col justify-center items-center w-[95%] p-8 mx-auto ">
