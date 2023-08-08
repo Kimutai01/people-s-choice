@@ -11,15 +11,13 @@ const Mission = () => {
     <div className="p-8 bg-black">
       <Swiper
         slidesPerView={1}
-        className=" w-[100%] flex justify-center items-center   swiper-container"
+        className=" w-[100%] flex  justify-center items-center   swiper-container"
         loop={true}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        pagination={true}
         modules={[Autoplay, Navigation, Pagination, Scrollbar]}
       >
         <SwiperSlide>
