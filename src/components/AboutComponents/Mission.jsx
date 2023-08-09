@@ -22,22 +22,13 @@ const Mission = () => {
       >
         <SwiperSlide>
           <div className="flex w-[100%] rounded-t-3xl h-[100%] gap-2  flex-col">
-            <div className="relative rounded-t-3xl">
-              <div
-                className="absolute inset-0 rounded-t-3xl"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #BF8134 0%, rgba(255, 255, 255, 0) 100%)",
-                }}
-              ></div>
-              <img
-                className="object-cover w-full h-full rounded-t-3xl"
-                src="/faq.png"
-                alt="Your Image"
-              />
-              <div className="absolute bottom-0 left-0 w-full text-center p-4">
-                <p className="text-white font-extrabold uppercase text-5xl md:text-8xl">
-                  Mission
+            <div
+              className="bg-cover bg-no-repeat bg-center h-[397px] flex justify-center items-end  w-[100%] rounded-t-3xl"
+              style={{ backgroundImage: `url(/faq.png)` }}
+            >
+              <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
+                <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">
+                  Misson
                 </p>
               </div>
             </div>
@@ -58,11 +49,13 @@ const Mission = () => {
           <div className="flex w-[100%] rounded-t-3xl h-[100%] gap-2  flex-col">
             <div
               className="bg-cover bg-no-repeat bg-center h-[397px] flex justify-center items-end  w-[100%] rounded-t-3xl"
-              style={{ backgroundImage: `url(/slider1.png)` }}
+              style={{ backgroundImage: `url(/faq.png)` }}
             >
-              <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">
-                Vision
-              </p>
+              <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
+                <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">
+                  Vision
+                </p>
+              </div>
             </div>
             <p className="text-white">
               Our vision is to be the leading and most respected recognition and

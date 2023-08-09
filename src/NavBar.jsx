@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {
@@ -12,8 +13,8 @@ const NavBar = () => {
   return (
     <div>
       <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start p-4 text-white w-[100%]">
-        <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-end items-end flex-col ">
-          <div className=" hidden md:flex gap-2">
+        <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-end md:items-start items-end flex-col ">
+          <div className=" hidden md:flex justify-start items-start gap-2">
             <Link to="/">
               <p className="hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]">
                 Home
@@ -43,14 +44,11 @@ const NavBar = () => {
           <div className="md:hidden block z-10">
             {nav ? (
               <AiOutlineClose
-                className=" text-white text-2xl"
+                className=" text-[#BF8134] text-2xl"
                 onClick={toggleNav}
               />
             ) : (
-              <BiMenuAltRight
-                className="text-white text-2xl"
-                onClick={toggleNav}
-              />
+              <FaBars className="text-[#BF8134] text-2xl" onClick={toggleNav} />
             )}
           </div>
 
