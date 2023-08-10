@@ -43,7 +43,7 @@ const SendMessage = () => {
               <textarea
                 type="text"
                 placeholder="Write Your Message Here"
-                className="w-[100%] h-[100px]  bg-[#BF8134] focus:border-none focus:border-transparent border-0 border-transparent placeholder-[#CBCCD3] text-[#CBCCD3] outline-none ring-0 border-none rounded-md p-4"
+                className="w-[100%] h-[200px]  bg-[#BF8134] focus:border-none focus:border-transparent border-0 border-transparent placeholder-[#CBCCD3] text-[#CBCCD3] outline-none ring-0 border-none rounded-md p-4"
               />
             </div>
             <div className="w-[100%] flex md:justify-end">
