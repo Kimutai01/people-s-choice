@@ -17,12 +17,14 @@ const NomineeHighlights = () => {
   };
 
   return (
-    <div className="border-b-[#BF8134] flex gap-4 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134]">
-      <div className="flex justify-between items-center w-[100%]">
+    <div className="border-b-[#BF8134] flex gap-4 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134] font-josefin">
+      <div className="flex gap-5 items-center w-[100%]">
         <div className="w-[70%]">
-          <p className="bg-white h-[2px] w-[100%] " />
+          <p className="bg-white h-[1px] w-[100%] " />
         </div>
-        <p className="text-3xl  text-white">NOMINEE HIGHLIGHTS</p>
+        <p className="text-3xl font-extrabold  text-white">
+          NOMINEE HIGHLIGHTS
+        </p>
       </div>
       <div className="flex items-center md:flex-row flex-col md:justify-around justify-center gap-8 bg-black ">
         <div className="md:w-[40%] w-[100%] flex flex-col justify-center items-center">

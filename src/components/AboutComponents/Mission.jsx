@@ -9,17 +9,17 @@ import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 
 const Mission = () => {
   return (
-    <div className="bg-black flex flex-col gap-4 p-4">
-      <div className="flex justify-between items-center w-[100%]">
-        <div className="w-[60%]">
-          <p className="bg-white h-[2px] w-[100%] " />
+    <div className="bg-black flex flex-col gap-4 p-4 font-josefin">
+      <div className="flex gap-10 mt-5 md:mx-5 items-center w-[100%]">
+        <div className="md:w-[70%]">
+          <p className="bg-white h-[1px] w-[100%] " />
         </div>
-        <p className="text-5xl uppercase   text-white">Mssion and Vision</p>
+        <p className="text-3xl uppercase text-white">Mission and Vision</p>
       </div>
       <div className="md:p-8 p-2 bg-black">
         <Swiper
           slidesPerView={1}
-          className=" w-[100%] flex py-8  justify-center m-4 items-center   swiper-container"
+          className=" w-[100%] flex py-8  justify-center md:m-4 items-center   swiper-container"
           loop={true}
           pagination={{
             clickable: true,
@@ -38,8 +38,8 @@ const Mission = () => {
                 style={{ backgroundImage: `url(/faq.png)` }}
               >
                 <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
-                  <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">
-                    Misson
+                  <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80 font-josefin">
+                    Mission
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Mission = () => {
                   </p>
                 </div>
               </div>
-              <p className="text-white">
+              <p className="text-white ">
                 Our vision is to be the leading and most respected recognition
                 and award program, revered for its commitment to promoting
                 African talents, career men, businesses, and personalities on a

@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const EventDetails = () => {
   return (
     <div className="border-b-[#BF8134] font-josefin  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
       <div className="flex items-center md:flex-row flex-col gap-2 md:justify-around justify-center bg-black p-8">
         <div className="md:w-[30%] w-[100%] bg-gradient-to-b from-white rounded-2xl flex flex-col justify-between from-30% to-black/50 h-[350px]">
-          <div className="flex gap-2 p-4 flex-col">
-            <p className="uppercase text-xl font-semibold">Save the Date</p>
-            <div className="gap-2 flex ">
+          <div className="flex  gap-2 p-4 flex-col">
+            <p className="uppercase text-xl text-center font-semibold">
+              Save the Date
+            </p>
+            <div className="gap-2 flex justify-center ">
               <div className="flex flex-col justify-center items-center">
                 <p className="text-7xl font-bold">14</p>
                 <p>D D</p>
@@ -19,14 +21,14 @@ const EventDetails = () => {
               </div>
               <p className="w-[1px] h-[100px] bg-black"></p>
               <div className="flex flex-col justify-center items-center">
-                <p className="text-7xl  font-bold">12</p>
+                <p className="text-7xl  font-bold">23</p>
                 <p>YYYY</p>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col bg-white w-[80%] p-4 text-2xl font-bold mx-auto border-4 border-[#BF8134] justify-center items-center">
-            JOIN US 
+            JOIN US
           </div>
           <div className="flex flex-row  bg-white w-[80%] text-xl font-semibold mx-auto gap-2 rounded-xl text-[#BF8134] p-4 justify-center items-center">
             <p>Purchase a Ticket</p>
