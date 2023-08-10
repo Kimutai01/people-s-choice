@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery1 = () => {
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#000] font-josefin">
       <div className="text-center mb-5">
         <button class="my-button mt-auto p-4 bg-[#fff] uppercase rounded-md text-[#BF8134]">
           <a href="https://koikai.passgallery.com/-peopleschoiceawards2022/gallery">
