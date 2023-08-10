@@ -26,7 +26,7 @@ const EventDetails = () => {
           </div>
 
           <div className="flex flex-col bg-white w-[80%] p-4 text-2xl font-bold mx-auto border-4 border-[#BF8134] justify-center items-center">
-            18 DAYS TO GO
+            JOIN US 
           </div>
           <div className="flex flex-row  bg-white w-[80%] text-xl font-semibold mx-auto gap-2 rounded-xl text-[#BF8134] p-4 justify-center items-center">
             <p>Purchase a Ticket</p>
@@ -41,18 +41,18 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2   md:text-3xl text-xl  flex flex-col">
-              <p>6pm - 10pm</p>
+              <p>3pm - 10pm</p>
               <p className="text-xs">Time</p>
             </div>
           </div>
-          <div className="flex w-[100%] justify-between md:gap-2 gap-8 text-white">
+          <div className="flex w-[100%] justify-start md:gap-2 gap-8 text-white">
             <img
               src="/time.png"
               alt=""
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2   md:text-3xl text-xl  flex flex-col">
-              <p>DUSIT PRINCESS HOTEL</p>
+              <p>Nairobi Film Center</p>
               <p className="text-xs">Venue</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2  md:text-3xl text-xl flex flex-col">
-              <p>CLAUDIA NAISABWA</p>
+              <p>Claudia Naisabwa</p>
               <p className="text-xs">Time</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const EventDetails = () => {
               alt=""
               className="object-contain w-[30px] h-[30px]"
             />
-            <p>Download Poster</p>
+            <p className="text-2xl">Download Poster</p>
           </div>
         </div>
       </div>

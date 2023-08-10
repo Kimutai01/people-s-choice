@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
             <p className="text-white text-center ">
               African Brilliance Unveiled: Celebrating Talents, Careers,
-              Businesses & Personalitie
+              Businesses & Personalities.
             </p>
             <div className="flex justify-center md:w-[50%] w-[80%] items-center ">
               <p className="bg-white h-[4px] w-[20%]"></p>

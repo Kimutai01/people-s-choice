@@ -13,8 +13,8 @@ const NavBar = () => {
   return (
     <div>
       <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start p-4 text-white w-[100%]">
-        <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-end md:items-start items-end flex-col ">
-          <div className=" hidden md:flex justify-start items-start gap-2">
+        <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-between md:items-start items-end flex-col ">
+          <div className=" hidden md:flex justify-between w-[100%] items-start gap-2">
             <Link to="/">
               <p className="hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]">
                 Home

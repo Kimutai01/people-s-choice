@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { FaMoneyBill } from "react-icons/fa";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -131,6 +131,13 @@ const NomineeHighlights = () => {
             />
             <p className="w-[60%] uppercase text-[#BF8134] text-2xl font-semibold">
               Vote for a nominee
+            </p>
+          </div>
+
+          <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
+            <FaMoneyBill className="text-[#BF8134] w-[40px] h-[40px] md:w-[54px] md:h-[54px]" />
+            <p className="w-[60%] uppercase text-[#BF8134] text-2xl font-semibold">
+              Buy Tickets
             </p>
           </div>
         </div>
