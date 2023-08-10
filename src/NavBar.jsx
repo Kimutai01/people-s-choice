@@ -14,7 +14,7 @@ const NavBar = () => {
     <div>
       <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start p-4 text-white w-[100%] font-josefin">
         <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-between md:items-start items-end flex-col ">
-          <div className=" hidden md:flex justify-between w-[100%] uppercase items-start gap-2">
+          <div className=" hidden md:flex justify-between w-[100%] mt-2 uppercase items-start gap-2">
             <Link to="/">
               <p className="hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]">
                 Home
@@ -64,8 +64,23 @@ const NavBar = () => {
         </div>
 
         <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4  flex justify-end items-end flex-col ">
-          <div className="flex gap-2">
-            <p>Register</p>
+          <div className="flex items-center gap-2">
+            <button className="uppercase rounded-md p-1 bg-[#fff] text-[#000]">
+              <a href="" className="mt-2">
+                Buy tickets
+              </a>
+            </button>
+            <button className="uppercase rounded-md p-1 bg-[#fff] text-[#000]">
+              <a href="">Contestant poster</a>
+            </button>
+            {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
+              <p className="text-lg text-[#000] ">Contestant Poster</p>
+            </div> */}
+            <p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfI8njrxtS7yuOeJem0wZrw8OCW8jDLfqhf1G7TB44XqcHquA/viewform">
+                Register
+              </a>
+            </p>
             <p>|</p>
             <p>Vote</p>
           </div>
@@ -98,6 +113,16 @@ const NavBar = () => {
           <Link to="/faqs">
             <li className="p-4">FAQs</li>
           </Link>
+          <div className="flex flex-col gap-5">
+            <button className="uppercase rounded-md p-2 bg-[#fff] text-[#000]">
+              <a href="" className="mt-2">
+                Buy tickets
+              </a>
+            </button>
+            <button className="uppercase rounded-md p-2 bg-[#fff] text-[#000]">
+              <a href="">Contestant poster</a>
+            </button>
+          </div>
         </ul>
       </div>
     </div>

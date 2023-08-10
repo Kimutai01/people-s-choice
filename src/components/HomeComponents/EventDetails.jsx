@@ -54,7 +54,7 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2   md:text-3xl text-xl  flex flex-col">
-              <p>TBC</p>
+              <p>Nairobi Film Center</p>
               <p className="text-xs">Venue</p>
             </div>
           </div>
@@ -65,8 +65,8 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2  md:text-3xl text-xl flex flex-col">
-              <p>Claudia Naisabwa</p>
-              <p className="text-xs">Time</p>
+              <p className="">Claudia Naisabwa</p>
+              <p className="text-xs">Host</p>
             </div>
           </div>
 
