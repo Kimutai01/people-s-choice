@@ -17,11 +17,17 @@ const NomineeHighlights = () => {
   };
 
   return (
-    <div className="border-b-[#BF8134]  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
-      <div className="flex items-center md:flex-row flex-col md:justify-around justify-center gap-8 bg-black p-2 md:p-8">
+    <div className="border-b-[#BF8134] flex gap-4 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134]">
+      <div className="flex justify-between items-center w-[100%]">
+        <div className="w-[70%]">
+          <p className="bg-white h-[2px] w-[100%] " />
+        </div>
+        <p className="text-3xl  text-white">NOMINEE HIGHLIGHTS</p>
+      </div>
+      <div className="flex items-center md:flex-row flex-col md:justify-around justify-center gap-8 bg-black ">
         <div className="md:w-[40%] w-[100%] flex flex-col justify-center items-center">
           <div className="flex justify-center text-white items-center gap-2">
-          <div
+            <div
               className="bg-[#BF8134]  md:w-[57px] w-[25px] rounded-md  cursor-pointer md:h-[45px] h-[30px] md:-m-16 -m-4  flex justify-center items-center z-10 text-white"
               onClick={swipeback}
             >

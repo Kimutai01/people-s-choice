@@ -9,12 +9,12 @@ const EventDetails = () => {
             <p className="uppercase text-xl font-semibold">Save the Date</p>
             <div className="gap-2 flex ">
               <div className="flex flex-col justify-center items-center">
-                <p className="text-7xl font-bold">12</p>
+                <p className="text-7xl font-bold">14</p>
                 <p>D D</p>
               </div>
               <p className="w-[1px] h-[100px] bg-black"></p>
               <div className="flex flex-col justify-center items-center">
-                <p className="text-7xl  font-bold">12</p>
+                <p className="text-7xl  font-bold">10</p>
                 <p>MM</p>
               </div>
               <p className="w-[1px] h-[100px] bg-black"></p>
