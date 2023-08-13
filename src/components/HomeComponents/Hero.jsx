@@ -23,7 +23,7 @@ const Hero = () => {
         effect={"fade"}
         loop={true}
         autoplay={{
-          delay: 4500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
