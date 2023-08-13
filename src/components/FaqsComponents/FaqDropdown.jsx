@@ -25,7 +25,7 @@ const FaqDropdown = () => {
                 <IoIosArrowUp className="inline-block " color="white " />
               </div>
             ) : (
-              <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center">
+              <div className="h-7 w-7 bg-[#BF8134] text-[#fff]  text-center items-center flex justify-center">
                 <IoIosArrowDown className="inline-block " />
               </div>
             )}
@@ -57,7 +57,7 @@ const FaqDropdown = () => {
                   <IoIosArrowUp className="inline-block " color="white " />
                 </div>
               ) : (
-                <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center">
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff]  text-center items-center flex justify-center">
                   <IoIosArrowDown className="inline-block " />
                 </div>
               )}
@@ -82,14 +82,14 @@ const FaqDropdown = () => {
             >
               <div className="flex items-center text-[#fff]">
                 <img src="/3.png" alt="" className="mr-5" />
-                Do you offer warranty
+                Can people in the Diaspora vote?
               </div>
               {activeParagraphIndex === 2 ? (
                 <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center mb-1">
                   <IoIosArrowUp className="inline-block " color="white " />
                 </div>
               ) : (
-                <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center">
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff]  text-center items-center flex justify-center">
                   <IoIosArrowDown className="inline-block " />
                 </div>
               )}
@@ -112,7 +112,7 @@ const FaqDropdown = () => {
             >
               <div className="flex items-center text-[#fff]">
                 <img src="/4.png" alt="" className="mr-5" />
-                Do you have complete auto repair services
+                How do you ensure a fair voting process?
               </div>
 
               {activeParagraphIndex === 3 ? (
@@ -120,7 +120,7 @@ const FaqDropdown = () => {
                   <IoIosArrowUp className="inline-block " color="white " />
                 </div>
               ) : (
-                <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center">
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff]  text-center items-center flex justify-center">
                   <IoIosArrowDown className="inline-block " />
                 </div>
               )}
@@ -143,7 +143,7 @@ const FaqDropdown = () => {
             >
               <div className="flex items-center text-[#fff]">
                 <img src="/5.png" alt="" className="mr-5" />
-                Can you do a full technical assessment of my car
+                How are winners Selected?
               </div>
 
               {activeParagraphIndex === 4 ? (
@@ -151,7 +151,7 @@ const FaqDropdown = () => {
                   <IoIosArrowUp className="inline-block " color="white " />
                 </div>
               ) : (
-                <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center">
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
                   <IoIosArrowDown className="inline-block " />
                 </div>
               )}
