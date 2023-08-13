@@ -49,7 +49,7 @@ const EventDetails = () => {
           </div>
           <div className="flex w-[100%] justify-start md:gap-2 gap-8 text-white">
             <img
-              src="/time.png"
+              src="/Vector10.png"
               alt=""
               className="object-contain w-[54px] h-[54px]"
             />
@@ -60,7 +60,7 @@ const EventDetails = () => {
           </div>
           <div className="flex w-[100%] justify-start md:gap-2 gap-8 text-white">
             <img
-              src="/time.png"
+              src="/Vector11.png"
               alt=""
               className="object-contain w-[54px] h-[54px]"
             />

@@ -63,14 +63,14 @@ const NavBar = () => {
           />
         </div>
 
-        <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4  flex justify-end items-end flex-col ">
+        <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4 ml-3  flex justify-end items-end flex-col ">
           <div className="flex items-center gap-2">
-            <button className="uppercase rounded-md p-1 bg-[#fff] text-[#000]">
+            <button className=" hidden md:block uppercase rounded-md p-1 ">
               <a href="" className="mt-2">
                 Buy tickets
               </a>
             </button>
-            <button className="uppercase rounded-md p-1 bg-[#fff] text-[#000]">
+            <button className="hidden md:block uppercase rounded-md p-1 ">
               <a href="">Contestant poster</a>
             </button>
             {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
