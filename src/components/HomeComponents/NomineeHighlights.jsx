@@ -17,9 +17,9 @@ const NomineeHighlights = () => {
   };
 
   return (
-    <div className="border-b-[#BF8134] flex gap-4 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134] font-josefin">
-      <div className="flex gap-5 items-center w-[100%]">
-        <div className="w-[70%]">
+    <div className="border-b-[#BF8134] flex gap-4 pb-10 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134] font-josefin">
+      <div className="md:flex text-center pt-5 md:gap-5 md:items-center w-[100%]">
+        <div className="w-[70%] hidden md:block">
           <p className="bg-white h-[1px] w-[100%] " />
         </div>
         <p className="text-3xl font-extrabold  text-white">
@@ -121,7 +121,7 @@ const NomineeHighlights = () => {
               alt=""
               className="object-contain w-[40px] h-[40px] md:w-[54px] md:h-[54px]"
             />
-            <p className="w-[60%] uppercase text-[#BF8134] text-2xl font-semibold">
+            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
               Register as a contestant
             </p>
           </div>
@@ -131,14 +131,14 @@ const NomineeHighlights = () => {
               alt=""
               className="object-contain w-[40px] h-[40px] md:w-[54px] md:h-[54px]"
             />
-            <p className="w-[60%] uppercase text-[#BF8134] text-2xl font-semibold">
+            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
               Vote for a nominee
             </p>
           </div>
 
           <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
             <FaMoneyBill className="text-[#BF8134] w-[40px] h-[40px] md:w-[54px] md:h-[54px]" />
-            <p className="w-[60%] uppercase text-[#BF8134] text-2xl font-semibold">
+            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
               Buy Tickets
             </p>
           </div>

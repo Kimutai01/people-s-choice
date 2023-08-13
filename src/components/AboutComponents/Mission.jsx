@@ -10,8 +10,8 @@ import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 const Mission = () => {
   return (
     <div className="bg-black flex flex-col gap-4 p-4 font-josefin">
-      <div className="flex gap-10 mt-5 md:mx-5 items-center w-[100%]">
-        <div className="md:w-[70%]">
+      <div className="md:flex text-center md:gap-10 mt-5 md:mx-5 md:items-center w-[100%]">
+        <div className="md:w-[70%] hidden md:block">
           <p className="bg-white h-[1px] w-[100%] " />
         </div>
         <p className="text-3xl uppercase text-white">Mission and Vision</p>
@@ -35,7 +35,7 @@ const Mission = () => {
             <div className="flex w-[100%] rounded-t-3xl h-[100%] gap-2  flex-col">
               <div
                 className="bg-cover bg-no-repeat bg-center h-[397px] flex justify-center items-end  w-[100%] rounded-t-3xl"
-                style={{ backgroundImage: `url(/faq.png)` }}
+                style={{ backgroundImage: `url(/mission.jpg)` }}
               >
                 <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
                   <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80 font-josefin">
@@ -60,7 +60,7 @@ const Mission = () => {
             <div className="flex w-[100%] rounded-t-3xl h-[100%] gap-2  flex-col">
               <div
                 className="bg-cover bg-no-repeat bg-center h-[397px] flex justify-center items-end  w-[100%] rounded-t-3xl"
-                style={{ backgroundImage: `url(/faq.png)` }}
+                style={{ backgroundImage: `url(/vission.jpg)` }}
               >
                 <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
                   <p className="md:text-[100px] text-7xl font-bold uppercase text-white/80">

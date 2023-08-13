@@ -35,7 +35,7 @@ const EventDetails = () => {
           </div>
         </div>
 
-        <div className="flex  md:w-[380px] w-[300px] justify-center md:justify-start gap-4 md:items-start items-center    flex-col">
+        <div className="flex  md:w-[380px] mt-10 w-[300px] justify-center md:justify-start gap-4 md:items-start items-center    flex-col">
           <div className="flex w-[100%] justify-start md:gap-2 gap-8 text-white">
             <img
               src="/time.png"
@@ -43,7 +43,7 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2   md:text-3xl text-xl  flex flex-col">
-              <p>3pm - 10pm</p>
+              <p className="font-bold">3pm - 10pm</p>
               <p className="text-xs">Time</p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2   md:text-3xl text-xl  flex flex-col">
-              <p>Nairobi Film Center</p>
+              <p className="font-bold">Nairobi Film Center</p>
               <p className="text-xs">Venue</p>
             </div>
           </div>
@@ -65,12 +65,12 @@ const EventDetails = () => {
               className="object-contain w-[54px] h-[54px]"
             />
             <div className="gap-2  md:text-3xl text-xl flex flex-col">
-              <p className="">Claudia Naisabwa</p>
+              <p className="font-bold">Claudia Naisabwa</p>
               <p className="text-xs">Host</p>
             </div>
           </div>
 
-          <div className="bg-white rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]">
+          <div className="bg-white mt-5 rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]">
             <img
               src="/download.png"
               alt=""

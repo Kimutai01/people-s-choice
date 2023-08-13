@@ -3,8 +3,8 @@ import React from "react";
 const AboutHero = () => {
   return (
     <div className="flex flex-col gap-4 bg-black">
-      <div className="flex gap-5 font-josefin mt-10 items-center w-[100%]">
-        <div className="md:w-[75%] mx-10">
+      <div className="md:flex md:gap-5 text-center font-josefin mt-10 md:items-center w-[100%]">
+        <div className="md:w-[75%] hidden md:block mx-10">
           <p className="bg-white h-[1px] w-[100%] " />
         </div>
         <p className="text-4xl uppercase text-white">About Us</p>
@@ -13,7 +13,7 @@ const AboutHero = () => {
       <div className="flex font-josefin gap-10 md:flex-row mx-5 flex-col  items-start bg-black py-12 px-4 ">
         <div
           className="bg-cover bg-no-repeat bg-center md:w-[50%] h-[563px]   flex  justify-center items-end  w-[100%] rounded-t-3xl"
-          style={{ backgroundImage: `url(/clau.jpg)` }}
+          style={{ backgroundImage: `url(/about.jpg)` }}
         >
           <div className="flex justify-center items-end h-[100%] w-[100%] rounded-t-3xl bg-gradient-to-b from-[#BF8134] to-black/50">
             <p className=" text-3xl md:text-5xl font-extrabold uppercase text-white/80 font-josefin">
