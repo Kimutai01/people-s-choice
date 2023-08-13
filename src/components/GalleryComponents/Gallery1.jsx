@@ -14,21 +14,21 @@ const Gallery1 = () => {
         <div className="w-1/3 h-[100vh]">
           <div className="h-1/3 w-[100%]">
             <img
-              src="/1.jpg"
+              src="/vend.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />
           </div>
           <div className="h-1/3 w-[100%]">
             <img
-              src="/2.jpg"
+              src="/gal2.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />
           </div>
           <div className="h-1/3 w-[100%]">
             <img
-              src="/3.jpg"
+              src="/gal3.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />
@@ -37,7 +37,7 @@ const Gallery1 = () => {
         <div className="w-1/3 h-[100vh]">
           <div className="h-1/2 w-[100%]">
             <img
-              src="/4.jpg"
+              src="/gal5.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />
@@ -45,7 +45,7 @@ const Gallery1 = () => {
 
           <div className="h-1/2  w-[100%] ">
             <img
-              src="/5.jpg"
+              src="/gal6.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />
@@ -54,7 +54,7 @@ const Gallery1 = () => {
         <div className="w-1/3 h-[100vh]">
           <div className="h-[100%] w-[100%] ">
             <img
-              src="/6.jpg"
+              src="/gal7.jpg"
               alt=""
               className="w-[100%] h-[100%] object-cover"
             />

@@ -3,8 +3,8 @@ import React from "react";
 const SponsorshipHero = () => {
   return (
     <div className="bg-black gap-4 flex flex-col font-josefin">
-      <div className="flex gap-10 mt-5 mx-10 items-center">
-        <div className="md:w-[70%]">
+      <div className="md:flex md:gap-10 text-center mt-5 md:mx-10 md:items-center">
+        <div className="md:w-[70%] hidden md:block">
           <p className="bg-white h-[2px] " />
         </div>
         <p className="text-3xl font-extrabold  text-white">SPONSORSHIPS</p>

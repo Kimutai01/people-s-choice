@@ -1,6 +1,6 @@
 import React from "react";
 
-import homebg from "/homebg.png";
+import homebg from "/vend.jpg";
 const Vendorship = () => {
   const packages = [
     {
