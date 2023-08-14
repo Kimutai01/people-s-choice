@@ -74,11 +74,11 @@ const SponsorshipHero = () => {
             pride that resonate not only throughout Africa but across the globe.
           </p>
 
-          <div className="flex   items-center gap-12">
+          <div className="flex mt-5  items-center gap-12">
             <div className="flex flex-col gap-2">
               <img
-                src="/social.png"
-                className="h-[130px] w-[130px] object-contain"
+                src="/social2.jpg"
+                className="h-[130px] w-[130px] object-contain rounded-full"
                 alt=""
               />
               <p>Social Market Vms</p>
@@ -91,6 +91,14 @@ const SponsorshipHero = () => {
                 alt=""
               />
               <p>Tamasha Kenya</p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <img
+                src="/placeholder.png"
+                className="h-[130px] w-[130px] object-contain"
+                alt=""
+              />
+              <p>Your logo here</p>
             </div>
           </div>
         </div>
