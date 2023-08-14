@@ -64,7 +64,7 @@ const NavBar = () => {
         </div>
 
         <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4 ml-3  flex justify-end items-end flex-col ">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 md:gap-12">
             <button className=" hidden md:block uppercase rounded-md p-1 ">
               <a href="" className="mt-2">
                 Buy tickets
@@ -81,7 +81,7 @@ const NavBar = () => {
                 Register
               </a>
             </p>
-            <p>|</p>
+
             <p>Vote</p>
           </div>
 
