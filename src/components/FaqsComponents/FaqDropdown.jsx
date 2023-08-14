@@ -257,6 +257,69 @@ const FaqDropdown = () => {
                 All registered contestants shall receive 50% of the total cash
                 collected from their votes, while category winners are honored
                 with Trophies and certificates, and first and second runners-up
+                receive certificates.
+              </p>
+            )}
+          </div>
+        </div>
+        <div className="border-t-[1px] border-[grey] mt-7">
+          <div className="mt-7 ">
+            <h1
+              className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
+              onClick={() => toggleParagraphVisibility(8)}
+            >
+              <div className="flex items-center text-[#fff]">
+                <img src="/time.png" alt="" className="mr-5" />
+                When is the Awarding Ceremony?
+              </div>
+
+              {activeParagraphIndex === 8 ? (
+                <div className="h-7 w-7 bg-[#BF8134]  text-center items-center flex justify-center mb-1">
+                  <IoIosArrowUp className="inline-block " color="white " />
+                </div>
+              ) : (
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
+                  <IoIosArrowDown className="inline-block " />
+                </div>
+              )}
+            </h1>
+
+            {activeParagraphIndex === 8 && (
+              <p className="text-[grey] ml-10">
+                Save the date! The Award Gala is scheduled for October 14th,
+                2023.
+              </p>
+            )}
+          </div>
+        </div>
+        <div className="border-t-[1px] border-[grey] mt-7">
+          <div className="mt-7 ">
+            <h1
+              className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
+              onClick={() => toggleParagraphVisibility(9)}
+            >
+              <div className="flex items-center text-[#fff]">
+                <img src="/Group22.png" alt="" className="mr-5" />
+                Is the Award Ceremony free to attend?
+              </div>
+
+              {activeParagraphIndex === 9 ? (
+                <div className="h-7 w-7 bg-[#BF8134]  text-center items-center flex justify-center mb-1">
+                  <IoIosArrowUp className="inline-block " color="white " />
+                </div>
+              ) : (
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
+                  <IoIosArrowDown className="inline-block " />
+                </div>
+              )}
+            </h1>
+
+            {activeParagraphIndex === 9 && (
+              <p className="text-[grey] ml-10">
+                The award ceremony is free for all nominees to attend. However,
+                for accompanying guests and members of the public who wish to
+                join the event, tickets will be available for purchase on our
+                website.
               </p>
             )}
           </div>
