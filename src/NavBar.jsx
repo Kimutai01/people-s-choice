@@ -65,17 +65,6 @@ const NavBar = () => {
 
         <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4 ml-3  flex justify-end items-end flex-col ">
           <div className="flex items-center gap-2 md:gap-7">
-            <button className=" hidden md:block uppercase rounded-md p-1 ">
-              <a href="" className="mt-2">
-                Buy tickets
-              </a>
-            </button>
-            <button className="hidden md:block uppercase rounded-md p-1 ">
-              <a href="">Contestant poster</a>
-            </button>
-            {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
-              <p className="text-lg text-[#000] ">Contestant Poster</p>
-            </div> */}
             <p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfI8njrxtS7yuOeJem0wZrw8OCW8jDLfqhf1G7TB44XqcHquA/viewform">
                 Register
@@ -83,6 +72,18 @@ const NavBar = () => {
             </p>
 
             <p className="cursor-pointer">Vote</p>
+            <button className="hidden md:block uppercase rounded-md p-1 ">
+              <a href="">Contestant poster</a>
+            </button>
+            <button className=" hidden md:block uppercase rounded-md p-1 ">
+              <a href="" className="mt-2">
+                Buy tickets
+              </a>
+            </button>
+
+            {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
+              <p className="text-lg text-[#000] ">Contestant Poster</p>
+            </div> */}
           </div>
 
           <p className="bg-[#BF8134] h-[2px] w-[100%]"></p>
