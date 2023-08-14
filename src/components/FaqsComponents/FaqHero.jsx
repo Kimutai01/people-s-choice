@@ -18,7 +18,7 @@ const FaqHero = () => {
           }}
         ></div>
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-[50vh] h-full"
           src="/faq.jpg"
           alt="Your Image"
         />
