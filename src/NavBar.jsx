@@ -82,7 +82,7 @@ const NavBar = () => {
               </a>
             </p>
 
-            <p>Vote</p>
+            <p className="cursor-pointer">Vote</p>
           </div>
 
           <p className="bg-[#BF8134] h-[2px] w-[100%]"></p>
