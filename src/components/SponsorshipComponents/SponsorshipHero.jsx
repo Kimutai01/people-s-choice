@@ -77,7 +77,7 @@ const SponsorshipHero = () => {
           <div className="flex   items-center gap-12">
             <div className="flex flex-col gap-2">
               <img
-                src="/tamasha.png"
+                src="/social.png"
                 className="h-[130px] w-[130px] object-contain"
                 alt=""
               />
@@ -86,7 +86,7 @@ const SponsorshipHero = () => {
 
             <div className="flex flex-col gap-2">
               <img
-                src="/tamasha.png"
+                src="/tamasha2.png"
                 className="h-[130px] w-[130px] object-contain"
                 alt=""
               />
