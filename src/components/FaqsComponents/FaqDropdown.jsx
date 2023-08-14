@@ -18,7 +18,7 @@ const FaqDropdown = () => {
           >
             <div className="flex items-center text-[#fff]">
               <img src="/1.png" alt="" className="mr-5" />
-              How do I participate?
+              How do I apply to participate?
             </div>
             {activeParagraphIndex === 0 ? (
               <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center mb-1">
@@ -33,12 +33,10 @@ const FaqDropdown = () => {
 
           {activeParagraphIndex === 0 && (
             <p className="text-[grey] ml-10">
-              Your car might need service for a multitude of reasons from any
-              assortment of low fluids, worn brake linings, or component
-              malfunctions. Depending on what the issue is, it could be fixed in
-              a day or take over 1 week for a major job. Once we diagnose your
-              car, we will be able to give you a better estimate for how long
-              the repair will take.
+              Visit our website’s home page, and right there, you'll spot the
+              "Contestant Registration" link. Click on it to access the
+              registration form and submit your entry for the People's Choice
+              Awards
             </p>
           )}
         </div>
@@ -65,11 +63,9 @@ const FaqDropdown = () => {
 
             {activeParagraphIndex === 1 && (
               <p className="text-[grey] ml-12">
-                It is highly recommended that you make an appointment. We are an
-                independent auto repair center and we pride ourselves on our
-                quality work and stellar reviews. We might be completely booked
-                and not be able to get to your car right away. For that reason,
-                we recommend making an appointment or calling ahead.
+                Certainly! You have the flexibility to register your submissions
+                in multiple categories, giving you more opportunities to gain
+                recognition and celebrate your achievements.
               </p>
             )}
           </div>
@@ -82,7 +78,7 @@ const FaqDropdown = () => {
             >
               <div className="flex items-center text-[#fff]">
                 <img src="/3.png" alt="" className="mr-5" />
-                Can people in the Diaspora vote?
+                Can I vote multiple times for the same contestant?
               </div>
               {activeParagraphIndex === 2 ? (
                 <div className="h-7 w-7 bg-[#BF8134] text-center items-center flex justify-center mb-1">
@@ -97,9 +93,9 @@ const FaqDropdown = () => {
 
             {activeParagraphIndex === 2 && (
               <p className="text-[grey] ml-10">
-                Yes, we certainly do. Our warranty is 2 years or 24,000 miles
-                and covers you nationwide! We are proud to stand behind our
-                work.
+                Yes, you can cast multiple votes for the same contestant. Feel
+                free to vote as many times as you'd like to make sure your
+                favorite nominee has a better chance of winning.
               </p>
             )}
           </div>
@@ -112,7 +108,7 @@ const FaqDropdown = () => {
             >
               <div className="flex items-center text-[#fff]">
                 <img src="/4.png" alt="" className="mr-5" />
-                How do you ensure a fair voting process?
+                Can people in the Diaspora vote?
               </div>
 
               {activeParagraphIndex === 3 ? (
@@ -128,9 +124,9 @@ const FaqDropdown = () => {
 
             {activeParagraphIndex === 3 && (
               <p className="text-[grey] ml-10">
-                Yes, we have a complete body shop and do restore classic and
-                vintage cars. Contact us to tell us about your project car
-                today!
+                Yes, voting for the People's Choice Awards is not limited by
+                geographical boundaries, allowing people from the diaspora to
+                have their say in the award winners
               </p>
             )}
           </div>
@@ -142,8 +138,8 @@ const FaqDropdown = () => {
               onClick={() => toggleParagraphVisibility(4)}
             >
               <div className="flex items-center text-[#fff]">
-                <img src="/5.png" alt="" className="mr-5" />
-                How are winners Selected?
+                <img src="/Group21.png" alt="" className="mr-5" />
+                How do you ensure a fair voting process?
               </div>
 
               {activeParagraphIndex === 4 ? (
@@ -159,9 +155,108 @@ const FaqDropdown = () => {
 
             {activeParagraphIndex === 4 && (
               <p className="text-[grey] ml-10">
-                Yes, you can get a full MOT with us, you don't even need to
-                worry about additional purchases, as you can buy all MOT
-                materials in our store
+                We ensure a fair voting process through our partnership with
+                Tamasha Kenya, a third-party company, utilizing a secure and
+                transparent voting platform that reflects votes immediately,
+                with real-time monitoring for contestants
+              </p>
+            )}
+          </div>
+        </div>
+        <div className="border-t-[1px] border-[grey] mt-7">
+          <div className="mt-7 ">
+            <h1
+              className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
+              onClick={() => toggleParagraphVisibility(5)}
+            >
+              <div className="flex items-center text-[#fff]">
+                <img src="/Vector13.png" alt="" className="mr-5" />
+                How are winners Selected?
+              </div>
+
+              {activeParagraphIndex === 5 ? (
+                <div className="h-7 w-7 bg-[#BF8134]  text-center items-center flex justify-center mb-1">
+                  <IoIosArrowUp className="inline-block " color="white " />
+                </div>
+              ) : (
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
+                  <IoIosArrowDown className="inline-block " />
+                </div>
+              )}
+            </h1>
+
+            {activeParagraphIndex === 5 && (
+              <p className="text-[grey] ml-10">
+                Winners for the People's Choice Awards are selected through a
+                public voting process, where the public votes for their
+                preferred nominees via USSD or our online voting platform, and
+                the nominee with the highest number of votes in each category
+                wins.
+              </p>
+            )}
+          </div>
+        </div>
+        <div className="border-t-[1px] border-[grey] mt-7">
+          <div className="mt-7 ">
+            <h1
+              className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
+              onClick={() => toggleParagraphVisibility(6)}
+            >
+              <div className="flex items-center text-[#fff]">
+                <img src="/Group22.png" alt="" className="mr-5" />
+                Why is there a voting fee?
+              </div>
+
+              {activeParagraphIndex === 6 ? (
+                <div className="h-7 w-7 bg-[#BF8134]  text-center items-center flex justify-center mb-1">
+                  <IoIosArrowUp className="inline-block " color="white " />
+                </div>
+              ) : (
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
+                  <IoIosArrowDown className="inline-block " />
+                </div>
+              )}
+            </h1>
+
+            {activeParagraphIndex === 6 && (
+              <p className="text-[grey] ml-10">
+                The voting fee exists to implement a cash reward system for all
+                contestants, providing fair compensation and enabling them to
+                monetize their networks and fanbase while supporting the
+                sustainability and transparency of the People's Choice Awards.
+                Every contestant (winner or not) is entitled to 50% of the total
+                cash collected from their votes
+              </p>
+            )}
+          </div>
+        </div>
+        <div className="border-t-[1px] border-[grey] mt-7">
+          <div className="mt-7 ">
+            <h1
+              className={`md:text-2xl text-2xl text-transparent bg-clip-text font-bold  flex justify-between text-[#fff]`}
+              onClick={() => toggleParagraphVisibility(7)}
+            >
+              <div className="flex items-center text-[#fff]">
+                <img src="/Vector12.png" alt="" className="mr-5" />
+                How do you reward winners?
+              </div>
+
+              {activeParagraphIndex === 7 ? (
+                <div className="h-7 w-7 bg-[#BF8134]  text-center items-center flex justify-center mb-1">
+                  <IoIosArrowUp className="inline-block " color="white " />
+                </div>
+              ) : (
+                <div className="h-7 w-7 bg-[#BF8134] text-[#fff] text-center items-center flex justify-center">
+                  <IoIosArrowDown className="inline-block " />
+                </div>
+              )}
+            </h1>
+
+            {activeParagraphIndex === 7 && (
+              <p className="text-[grey] ml-10">
+                All registered contestants shall receive 50% of the total cash
+                collected from their votes, while category winners are honored
+                with Trophies and certificates, and first and second runners-up
               </p>
             )}
           </div>
