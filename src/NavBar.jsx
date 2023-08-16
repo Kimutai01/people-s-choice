@@ -52,20 +52,23 @@ const NavBar = () => {
                 onClick={toggleNav}
               />
             ) : (
-              <FaBars className="text-[#BF8134] text-xl mt-2" onClick={toggleNav} />
+              <FaBars
+                className="text-[#BF8134] text-xl mt-2"
+                onClick={toggleNav}
+              />
             )}
           </div>
 
           <p className="bg-[#BF8134] h-[2px] w-[100%]"></p>
         </div>
 
-        <div>
+        <Link to="/">
           <img
             src="/logo.png"
             className="w-[100%] h-[100px] object-cover"
             alt=""
           />
-        </div>
+        </Link>
 
         <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4 ml-3  flex justify-end items-end flex-col ">
           <div className="flex items-center gap-2 md:gap-7">
@@ -119,7 +122,6 @@ const NavBar = () => {
             </button>
             <button className=" hidden md:block uppercase rounded-md p-1 ">
               <p
-                
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
                   toast.warning(

@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
+import "react-toastify/dist/ReactToastify.css";
 const EventDetails = () => {
   return (
     <div className="border-b-[#BF8134] font-josefin  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
+      <ToastContainer />
       <div className="flex items-center md:flex-row flex-col gap-2 md:justify-around justify-center bg-black p-8">
         <div className="md:w-[30%] w-[100%] bg-gradient-to-b from-white rounded-2xl flex flex-col justify-between from-30% to-black/50 h-[350px]">
           <div className="flex  gap-2 p-4 flex-col">
@@ -31,7 +34,26 @@ const EventDetails = () => {
             JOIN US
           </div>
           <div className="flex flex-row  bg-white w-[80%] text-xl font-semibold mx-auto gap-2 rounded-xl text-[#BF8134] p-4 justify-center items-center">
-            <p>Purchase a Ticket</p>
+            <p
+              className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
+              onClick={() => {
+                toast.warning(
+                  "Tickets will be available for purchase from 1st September 2023",
+                  {
+                    position: "top-center",
+                    autoClose: 7000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                  }
+                );
+              }}
+            >
+              Buy Tickets
+            </p>
           </div>
         </div>
 
