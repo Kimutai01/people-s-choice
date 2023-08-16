@@ -45,7 +45,7 @@ const NavBar = () => {
               </p>
             </Link>
           </div>
-          <div className="md:hidden block z-10">
+          <div className="md:hidden block z-50">
             {nav ? (
               <AiOutlineClose
                 className=" text-[#BF8134] mt-2 text-xl"
@@ -154,8 +154,8 @@ const NavBar = () => {
       <div
         className={
           nav
-            ? "sm:hidden absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center text-center  w-full h-screen bg-black/80 text-white duration-300 ease-in-out"
-            : "sm:hidden absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center text-center w-full h-screen  bg-black/80 text-white duration-300 ease-in-out"
+            ? "sm:hidden absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center text-center  w-full h-screen z-40  bg-black/80 text-white duration-300 ease-in-out"
+            : "sm:hidden absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center text-center w-full h-screen  z-40 bg-black/80 text-white duration-300 ease-in-out"
         }
       >
         <ul onClick={toggleNav}>
