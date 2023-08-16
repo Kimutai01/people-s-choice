@@ -78,7 +78,7 @@ const NavBar = () => {
             <p
               className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
               onClick={() => {
-                toast.info(
+                toast.warning(
                   "Voting is set to kick off on September 1st , Mark your Calenders !",
                   {
                     position: "top-center",
@@ -121,7 +121,7 @@ const NavBar = () => {
               <p
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
-                  toast.success(
+                  toast.warning(
                     "Contestant Posters will be available for download from August 30th 2023",
                     {
                       position: "top-center",

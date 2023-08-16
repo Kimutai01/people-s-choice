@@ -5,6 +5,9 @@ import { FaMoneyBill } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 const NomineeHighlights = () => {
   const swipe = () => {
     const swiper = document.querySelector(".swiper-container").swiper;
@@ -18,6 +21,7 @@ const NomineeHighlights = () => {
 
   return (
     <div className="border-b-[#BF8134] flex gap-4 pb-10 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134] font-josefin">
+      <ToastContainer />
       <div className="md:flex text-center pt-5 md:gap-5 md:items-center w-[100%]">
         <div className="w-[70%] hidden md:block">
           <p className="bg-white h-[1px] w-[100%] " />
@@ -115,30 +119,69 @@ const NomineeHighlights = () => {
         </div>
 
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
+          <div className="md:w-[380px] hover:scale-105 duration-500 ease-out cursor-pointer w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
             <img
               src="/register.png"
               alt=""
               className="object-contain w-[40px] h-[40px] md:w-[54px] md:h-[54px]"
             />
-            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
+            <a
+              href="https://shorturl.at/fADZ5"
+              rel="noreferrer"
+              target="_blank"
+              className="w-[60%] uppercase  text-[#BF8134] text-lg md:text-2xl font-semibold"
+            >
               Register as a contestant
-            </p>
+            </a>
           </div>
-          <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
+          <div className="md:w-[380px] w-[80%] h-[85px] hover:scale-105 duration-500 ease-out cursor-pointer rounded-xl bg-white  flex justify-center gap-2 items-center">
             <img
               src="/vote.png"
               alt=""
               className="object-contain w-[40px] h-[40px] md:w-[54px] md:h-[54px]"
             />
-            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
+            <p
+              className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold"
+              onClick={() => {
+                toast.warning(
+                  "Voting is set to kick off on September 1st , Mark your Calenders !",
+                  {
+                    position: "top-center",
+                    autoClose: 7000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                  }
+                );
+              }}
+            >
               Vote for a nominee
             </p>
           </div>
 
-          <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl bg-white  flex justify-center gap-2 items-center">
+          <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl hover:scale-105 duration-500 ease-out cursor-pointer bg-white  flex justify-center gap-2 items-center">
             <FaMoneyBill className="text-[#BF8134] w-[40px] h-[40px] md:w-[54px] md:h-[54px]" />
-            <p className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold">
+            <p
+              className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold"
+              onClick={() => {
+                toast.warning(
+                  "Voting is set to kick off on September 1st , Mark your Calenders !",
+                  {
+                    position: "top-center",
+                    autoClose: 7000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                  }
+                );
+              }}
+            >
               Buy Tickets
             </p>
           </div>
