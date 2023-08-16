@@ -99,7 +99,7 @@ const NavBar = () => {
               <p
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
-                  toast.info(
+                  toast.warning(
                     "Tickets will be available for purchase from 1st September 2023",
                     {
                       position: "top-center",
