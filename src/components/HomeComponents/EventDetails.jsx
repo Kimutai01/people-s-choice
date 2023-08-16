@@ -70,14 +70,18 @@ const EventDetails = () => {
             </div>
           </div>
 
-          <div className="bg-white mt-5 rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]">
+          <a
+            href="/eventposter.png"
+            download
+            className="bg-white mt-5 rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]"
+          >
             <img
               src="/download.png"
               alt=""
               className="object-contain w-[30px] h-[30px]"
             />
-            <p className="text-2xl">Download Poster</p>
-          </div>
+            Download the Poster
+          </a>
         </div>
       </div>
     </div>
