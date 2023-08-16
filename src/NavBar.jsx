@@ -4,6 +4,9 @@ import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {
@@ -12,6 +15,7 @@ const NavBar = () => {
 
   return (
     <div>
+      <ToastContainer />
       <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start p-4 text-white w-[100%] font-josefin">
         <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-between md:items-start items-end flex-col ">
           <div className=" hidden md:flex justify-between w-[100%] mt-2 uppercase items-start gap-2">
@@ -71,14 +75,69 @@ const NavBar = () => {
               </a>
             </p>
 
-            <p className="cursor-pointer">Vote</p>
+            <p
+              className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
+              onClick={() => {
+                toast.info(
+                  "Voting is set to kick off on September 1st , Mark your Calenders !",
+                  {
+                    position: "top-center",
+                    autoClose: 7000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                  }
+                );
+              }}
+            >
+              Vote
+            </p>
             <button className="hidden md:block uppercase rounded-md p-1 ">
-              <a href="">Contestant poster</a>
+              <p
+                className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
+                onClick={() => {
+                  toast.info(
+                    "Tickets will be available for purchase from 1st September 2023",
+                    {
+                      position: "top-center",
+                      autoClose: 7000,
+                      hideProgressBar: false,
+                      closeOnClick: true,
+                      pauseOnHover: true,
+                      draggable: true,
+                      progress: undefined,
+                      theme: "dark",
+                    }
+                  );
+                }}
+              >
+                Contestant Poster
+              </p>
             </button>
             <button className=" hidden md:block uppercase rounded-md p-1 ">
-              <a href="" className="mt-2">
-                Buy tickets
-              </a>
+              <p
+                className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
+                onClick={() => {
+                  toast.success(
+                    "Contestant Posters will be available for download from August 30th 2023",
+                    {
+                      position: "top-center",
+                      autoClose: 7000,
+                      hideProgressBar: false,
+                      closeOnClick: true,
+                      pauseOnHover: true,
+                      draggable: true,
+                      progress: undefined,
+                      theme: "dark",
+                    }
+                  );
+                }}
+              >
+                Buy Tickets
+              </p>
             </button>
 
             {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
