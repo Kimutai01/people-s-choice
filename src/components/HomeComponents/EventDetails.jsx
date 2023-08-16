@@ -73,7 +73,7 @@ const EventDetails = () => {
           <a
             href="/eventposter.png"
             download
-            className="bg-white mt-5 rounded-xl flex justify-center items-center gap-2 h-[57px] w-[100%]"
+            className="bg-white mt-5 text-2xl rounded-xl flex justify-center hover:scale-105 transition-all ease-in-out duration-500 items-center gap-2 h-[57px] w-[100%]"
           >
             <img
               src="/download.png"
