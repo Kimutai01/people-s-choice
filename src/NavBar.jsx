@@ -16,7 +16,7 @@ const NavBar = () => {
   return (
     <div>
       <ToastContainer />
-      <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start p-4 text-white w-[100%] font-josefin">
+      <div className="flex bg-black justify-between  md:flex-row flex-row-reverse items-start  p-4 text-white w-[100%] font-josefin">
         <div className="md:w-[40%] w-[25%] h-[50px] gap-4 flex justify-between md:items-start items-end flex-col ">
           <div className=" hidden md:flex justify-between w-[100%] mt-2 uppercase items-start gap-2">
             <Link to="/">
@@ -48,11 +48,11 @@ const NavBar = () => {
           <div className="md:hidden block z-10">
             {nav ? (
               <AiOutlineClose
-                className=" text-[#BF8134] text-2xl"
+                className=" text-[#BF8134] mt-2 text-xl"
                 onClick={toggleNav}
               />
             ) : (
-              <FaBars className="text-[#BF8134] text-2xl" onClick={toggleNav} />
+              <FaBars className="text-[#BF8134] text-xl mt-2" onClick={toggleNav} />
             )}
           </div>
 

@@ -168,7 +168,7 @@ const NomineeHighlights = () => {
               className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold"
               onClick={() => {
                 toast.warning(
-                  "Voting is set to kick off on September 1st , Mark your Calenders !",
+                  "Tickets will be available for purchase from 1st September 2023",
                   {
                     position: "top-center",
                     autoClose: 7000,

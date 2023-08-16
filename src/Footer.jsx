@@ -14,13 +14,13 @@ const Footer = () => {
       </div>
 
       <div className="w-[100%] flex md:flex-row flex-col justify-between  gap-4 items-center md:items-start">
-        <div className="flex flex-col justify-center items-center text-white gap-4">
+        <div className="flex flex-col justify-center items-start text-white gap-4">
           <Link to="tel:+254742816001">
             <div className="flex gap-2 items-center">
               <img
                 src="/call.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain object w-[35px] h-[35px]"
               />
               <p>+254742 816 001</p>
             </div>
@@ -38,46 +38,66 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <div className="flex gap-6  md:gap-16 items-center">
-            <Link to="https://www.tiktok.com/@peopleschoiceawardske?_t=8eW9wOUh6tJ&_r=1">
+          <div className="flex gap-6    md:gap-16 items-center">
+            <a
+              href="https://www.tiktok.com/@peopleschoiceawardske?_t=8eW9wOUh6tJ&_r=1"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src="/tiktok.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
               />
-            </Link>
-            <Link to="https://www.instagram.com/peopleschoiceawardske/?igshid=MzRlODBiNWFlZA%3D%3D">
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.instagram.com/peopleschoiceawardske/?igshid=MzRlODBiNWFlZA%3D%3D"
+            >
               <img
                 src="/instagram.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
               />
-            </Link>
-            <Link to="https://twitter.com/pca_kenya?t=Elu6qQ1o75q5bmQj5kXBtg&s=09">
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://twitter.com/pca_kenya?t=Elu6qQ1o75q5bmQj5kXBtg&s=09"
+            >
               <img
                 src="/twitter.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
               />
-            </Link>
-            <Link to="https://www.facebook.com/profile.php?id=100083645064267&mibextid=ZbWKwL">
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100083645064267&mibextid=ZbWKwL"
+            >
               <img
                 src="/facebook.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
               />
-            </Link>
-            <Link to="https://www.youtube.com/@peopleschoiceawardskenya3703">
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.youtube.com/@peopleschoiceawardskenya3703"
+            >
               <img
                 src="/youtube.png"
                 alt=""
-                className="object-contain w-[35px] h-[35px]"
+                className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
               />
-            </Link>
+            </a>
             <img
               src="/linkedin.png"
               alt=""
-              className="object-contain w-[35px] h-[35px]"
+              className="object-contain hover:scale-105 transition-all ease-in-out duration-500 w-[35px] h-[35px]"
             />
           </div>
 
