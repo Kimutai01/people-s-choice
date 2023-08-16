@@ -5,43 +5,33 @@ const Vendorship = () => {
   const packages = [
     {
       id: 1,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Cocktail Bar",
+      rates: "KES 150,000",
     },
     {
       id: 2,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Food And Beverage",
+      rates: "KES 100,000",
     },
     {
       id: 3,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Hot Beverage",
+      rates: "KES 50,000",
     },
     {
       id: 4,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Brand Activation",
+      rates: "KES 50,000",
     },
     {
       id: 5,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Stimulants",
+      rates: "KES 25,000",
     },
     {
       id: 6,
-      category: " naming rights",
-      rates: "KES 4000",
-    },
-    {
-      id: 7,
-      category: " naming rights",
-      rates: "KES 4000",
-    },
-    {
-      id: 8,
-      category: " naming rights",
-      rates: "KES 4000",
+      category: "Small Businesses",
+      rates: "KES 15,000",
     },
   ];
   return (
@@ -49,25 +39,32 @@ const Vendorship = () => {
       <div className="flex flex-col w-[100%] gap-8 bg-black  p-4 md:p-8">
         <div className="flex md:flex-row flex-col-reverse justify-center gap-12 items-center">
           <div className="md:w-[50%] w-[100%] bg-white p-8 h-[424px] rounded-t-3xl">
-            <div className="flex ">
-              <div className="w-[50%] text-lg  uppercase  text-[#BF8134] flex flex-col gap-1">
-                <p className="border-b-2 border-black  ">Vendor</p>
-                <p>Cocktail bar</p>
-                <p>Food and beverage</p>
-                <p>Hot beverage</p>
-                <p>Brand activation</p>
-                <p>Stimulants</p>
-                <p>Small Businesses</p>
-              </div>
-              <div className=" flex w-[50%] border-l-2 uppercase  border-black text-lg   flex-col gap-1">
-                <p className="border-b-2 px-4 border-black">Vendor rates</p>
-                <p className="px-4">Kes 150,000</p>
-                <p className="px-4">Kes 100,000</p>
-                <p className="px-4">Kes 50,000</p>
-                <p className="px-4">Kes 50,000</p>
-                <p className="px-4">Kes 25,000</p>
-                <p className="px-4">Kes 15,000</p>
-              </div>
+            <div className="w-[100%] overflow-scroll">
+              <table class="  overflow-scroll  text-center w-[100%] overflow-y-scroll bg-white">
+                <thead>
+                  <tr className="border-b-2 uppercase  text-[#985B16]  border-black">
+                    <th>
+                      {" "}
+                      <p className="  border-black  ">Vendor</p>
+                    </th>
+
+                    <th>
+                      {" "}
+                      <p className=" border-black  ">Vendor Rates</p>
+                    </th>
+                  </tr>{" "}
+                </thead>
+                <tbody>
+                  {packages.map((item) => (
+                    <tr className="text-lg">
+                      <td className="border-r-2 uppercase  text-[#985B16]  border-black">
+                        {item.category}
+                      </td>
+                      <td>{item.rates}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
           <div className="md:w-[40%] w-[100%]  rounded-t-3xl">
