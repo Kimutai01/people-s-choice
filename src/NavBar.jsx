@@ -82,7 +82,7 @@ const NavBar = () => {
               className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
               onClick={() => {
                 toast.warning(
-                  "Voting is set to kick off on September 1st , Mark your Calenders !",
+                  "Voting is set to kick off on September 11th , Mark your Calenders !",
                   {
                     position: "top-center",
                     autoClose: 7000,
@@ -103,7 +103,7 @@ const NavBar = () => {
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
                   toast.warning(
-                    "Contestant Posters will be available for download from August 30th 2023",
+                    "Contestant Posters will be available for download from September 9th 2023",
                     {
                       position: "top-center",
                       autoClose: 7000,
@@ -125,7 +125,7 @@ const NavBar = () => {
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
                   toast.warning(
-                    "Tickets will be available for purchase from 1st September 2023",
+                    "Tickets will be available for purchase from  September 11th 2023",
                     {
                       position: "top-center",
                       autoClose: 7000,
