@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 const EventDetails = () => {
   return (
     <div className="border-b-[#BF8134] font-josefin  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
-      <ToastContainer />
+     
       <div className="flex items-center md:flex-row flex-col gap-2 md:justify-around justify-center bg-black p-8">
         <div className="md:w-[30%] w-[100%] bg-gradient-to-b from-white rounded-2xl flex flex-col justify-between from-30% to-black/50 h-[350px]">
           <div className="flex  gap-2 p-4 flex-col">

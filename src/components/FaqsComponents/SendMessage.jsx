@@ -65,7 +65,7 @@ const SendMessage = () => {
 
   return (
     <div className="border-b-[#BF8134]  border-2 border-l-0 border-r-0 border-t-[#BF8134]">
-      <ToastContainer />
+     
       <div className="flex flex-col w-[100%] gap-8 bg-black p-8">
         <div className="flex justify-between items-center p-4">
           <div className="md:w-[5%]">

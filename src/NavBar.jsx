@@ -82,7 +82,7 @@ const NavBar = () => {
               className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
               onClick={() => {
                 toast.warning(
-                  "Voting is set to kick off on September 11th , Mark your Calenders !",
+                  "Voting Starts on Tuesday 12th September at 8:00 am !",
                   {
                     position: "top-center",
                     autoClose: 7000,
@@ -101,21 +101,21 @@ const NavBar = () => {
             <button className="hidden md:block uppercase rounded-md p-1 ">
               <p
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
-                onClick={() => {
-                  toast.warning(
-                    "Contestant Posters will be available for download from September 9th 2023",
-                    {
-                      position: "top-center",
-                      autoClose: 7000,
-                      hideProgressBar: false,
-                      closeOnClick: true,
-                      pauseOnHover: true,
-                      draggable: true,
-                      progress: undefined,
-                      theme: "dark",
-                    }
-                  );
-                }}
+                // onClick={() => {
+                //   toast.warning(
+                //     "Contestant Posters will be available for download from September 9th 2023",
+                //     {
+                //       position: "top-center",
+                //       autoClose: 7000,
+                //       hideProgressBar: false,
+                //       closeOnClick: true,
+                //       pauseOnHover: true,
+                //       draggable: true,
+                //       progress: undefined,
+                //       theme: "dark",
+                //     }
+                //   );
+                // }}
               >
                 Contestant Poster
               </p>
@@ -125,7 +125,7 @@ const NavBar = () => {
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
                   toast.warning(
-                    "Tickets will be available for purchase from  September 11th 2023",
+                    "Award Gala Tickets will be available for purchase from Tuesday 12th September",
                     {
                       position: "top-center",
                       autoClose: 7000,

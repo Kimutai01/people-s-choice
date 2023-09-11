@@ -21,7 +21,6 @@ const NomineeHighlights = () => {
 
   return (
     <div className="border-b-[#BF8134] flex gap-4 pb-10 flex-col bg-black p-2 md:p-8   border-2 border-l-0 border-r-0 border-t-[#BF8134] font-josefin">
-      <ToastContainer />
       <div className="md:flex text-center pt-5 md:gap-5 md:items-center w-[100%]">
         <div className="w-[70%] hidden md:block">
           <p className="bg-white h-[1px] w-[100%] " />
