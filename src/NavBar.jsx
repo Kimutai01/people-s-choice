@@ -99,7 +99,7 @@ const NavBar = () => {
               Vote
             </p>
             <button className="hidden md:block uppercase rounded-md p-1 ">
-              <p
+              {/* <p
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 // onClick={() => {
                 //   toast.warning(
@@ -118,7 +118,7 @@ const NavBar = () => {
                 // }}
               >
                 Contestant Poster
-              </p>
+              </p> */}
             </button>
             <button className=" hidden md:block uppercase rounded-md p-1 ">
               <p
@@ -182,9 +182,9 @@ const NavBar = () => {
                 Buy tickets
               </a>
             </button>
-            <button className="uppercase rounded-md p-2 bg-[#fff] text-[#000]">
+            {/* <button className="uppercase rounded-md p-2 bg-[#fff] text-[#000]">
               <a href="">Contestant poster</a>
-            </button>
+            </button> */}
           </div>
         </ul>
       </div>
