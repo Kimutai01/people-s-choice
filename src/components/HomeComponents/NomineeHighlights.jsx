@@ -143,7 +143,7 @@ const NomineeHighlights = () => {
               className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold"
               onClick={() => {
                 toast.warning(
-                  "Voting is set to kick off on September 11th , Mark your Calenders !",
+                  "Voting Starts on Tuesday 12th September at 8:00 am !",
                   {
                     position: "top-center",
                     autoClose: 7000,
