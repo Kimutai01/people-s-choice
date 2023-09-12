@@ -78,26 +78,14 @@ const NavBar = () => {
               </a>
             </p>
 
-            <p
+            <a
+              href="https://tamasha.ke/polls/?p=Peoples%20Choice%20Awards%202023"
+              target="_blank"
+              rel="noreferrer"
               className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
-              onClick={() => {
-                toast.warning(
-                  "Voting Starts on Tuesday 12th September at 8:00 am !",
-                  {
-                    position: "top-center",
-                    autoClose: 7000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                  }
-                );
-              }}
             >
               Vote
-            </p>
+            </a>
             <button className="hidden md:block uppercase rounded-md p-1 ">
               {/* <p
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
@@ -125,7 +113,7 @@ const NavBar = () => {
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
                 onClick={() => {
                   toast.warning(
-                    "Award Gala Tickets will be available for purchase from Tuesday 12th September",
+                    "Award Gala Tickets will be available for purchase from Tuesday 13th September",
                     {
                       position: "top-center",
                       autoClose: 7000,
