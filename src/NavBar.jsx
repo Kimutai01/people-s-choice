@@ -73,7 +73,7 @@ const NavBar = () => {
         <div className="md:w-[40%] w-[25%] uppercase md:text-base text-xs h-[50px] gap-4 ml-3  flex justify-end items-end flex-col ">
           <div className="flex items-center gap-2 md:gap-7">
             <p>
-              <a href="https://madfun.com/event/48">Buy tickets</a>
+              <a href="https://madfun.com/event/48">tickets</a>
             </p>
 
             <a
