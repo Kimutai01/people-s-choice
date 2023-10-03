@@ -109,26 +109,12 @@ const NavBar = () => {
               </p> */}
             </button>
             <button className=" hidden md:block uppercase rounded-md p-1 ">
-              <p
+              <a
+                href="https://madfun.com/event/48"
                 className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 hover:text-[#BF8134]"
-                onClick={() => {
-                  toast.warning(
-                    "Award Gala Tickets will be available for purchase from Tuesday 13th September",
-                    {
-                      position: "top-center",
-                      autoClose: 7000,
-                      hideProgressBar: false,
-                      closeOnClick: true,
-                      pauseOnHover: true,
-                      draggable: true,
-                      progress: undefined,
-                      theme: "dark",
-                    }
-                  );
-                }}
               >
                 Buy Tickets
-              </p>
+              </a>
             </button>
 
             {/* <div className="bg-white rounded-md flex justify-center items-center gap-2 ">
