@@ -166,7 +166,7 @@ const NavBar = () => {
           </Link>
           <div className="flex flex-col gap-5">
             <button className="uppercase rounded-md p-2 bg-[#fff] text-[#000]">
-              <a href="" className="mt-2">
+              <a href="https://madfun.com/event/48" className="mt-2">
                 Buy tickets
               </a>
             </button>

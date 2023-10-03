@@ -151,26 +151,12 @@ const NomineeHighlights = () => {
 
           <div className="md:w-[380px] w-[80%] h-[85px] rounded-xl hover:scale-105 duration-500 ease-out cursor-pointer bg-white  flex justify-center gap-2 items-center">
             <FaMoneyBill className="text-[#BF8134] w-[40px] h-[40px] md:w-[54px] md:h-[54px]" />
-            <p
+            <a
               className="w-[60%] uppercase text-[#BF8134] text-lg md:text-2xl font-semibold"
-              onClick={() => {
-                toast.warning(
-                  "Tickets will be available for purchase from 1st September 2023",
-                  {
-                    position: "top-center",
-                    autoClose: 7000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                  }
-                );
-              }}
+              href="https://madfun.com/event/48"
             >
               Buy Tickets
-            </p>
+            </a>
           </div>
         </div>
       </div>
